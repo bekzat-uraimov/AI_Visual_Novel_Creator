@@ -1,4 +1,4 @@
-> **Note:** This is my fork of our team's project from **CodeDay Fall 2025, Seattle** ([showcase](https://showcase.codeday.org/project/cmhgqspw91903j5my04z26yk6)).
+> **Note:** This is my fork of our team's project. We won **Best Use of AI at CodeDay Fall 2025, Seattle** ([showcase](https://showcase.codeday.org/project/cmhgqspw91903j5my04z26yk6)).
 > Team: Akan A, Raimbek, Shamil, Umar T, Zhanbolot E and me.
 >
 > **What I built:** the Ren'Py game loop in [`VN_Creator/game/script.rpy`](VN_Creator/game/script.rpy). It keeps track of the current scene, moves the story forward when the player picks a choice, and styles the choice buttons, so the AI generated story can be played as a real game.
