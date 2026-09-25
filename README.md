@@ -1,3 +1,21 @@
+> **Note:** This is my fork of our team's project from **CodeDay Fall 2025, Seattle** ([showcase](https://showcase.codeday.org/project/cmhgqspw91903j5my04z26yk6)).
+> Team: Akan A, Raimbek, Shamil, Umar T, Zhanbolot E and me.
+>
+> **What I built:** the Ren'Py game loop in [`VN_Creator/game/script.rpy`](VN_Creator/game/script.rpy). It keeps track of the current scene, moves the story forward when the player picks a choice, and styles the choice buttons, so the AI generated story can be played as a real game.
+
+### How it works
+
+```mermaid
+flowchart LR
+    U[Player answers prompts<br/>genre, characters, mood] --> SG[Gemini<br/>story as JSON]
+    SG --> SC[Script generator<br/>JSON to Ren'Py .rpy]
+    SG --> IM[Stability AI<br/>scene images]
+    SC --> RP[Ren'Py game]
+    IM --> RP
+```
+
+---
+
 # AI Visual Novel Creator
 
 An AI-powered tool that automatically generates complete visual novels using Google Gemini and Stability AI. Simply provide your story ideas through an interactive interface, and the system generates the dialogue, script, and images to create a playable Ren'Py visual novel.
